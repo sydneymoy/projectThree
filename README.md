@@ -18,7 +18,7 @@ This website is designed with fundamentals of HTML and CSS. The site features:
 * one responsive design for smaller screens
 
 # Wireframe
-[View the Figma Wireframe]()
+[Figma Wireframe](https://www.figma.com/proto/CQ1aVUOS7nKo4MJnsA2M7e/Happy-Paws-Adoption?node-id=5-21&node-type=canvas&t=uT5Sln9f5P0D6UJC-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A21)
 
 # Acknowledgement
 * [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans) designed by Santiago Orozco, available on Google Fonts.
