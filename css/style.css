@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', serif;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Jua', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav a {
+    font-family: "Jua", serif;
+    font-size: 1.2em;
+    text-decoration: none; 
+    margin: 10px;
+    color: black; 
+    position: relative; 
+    transition: color 0.3s ease; 
+}
+
+nav a:hover {
+    color: #ff6347; 
+}
+
+/* */
+nav a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 4px; 
+    background-color: #ff6347; 
+    bottom: 0;
+    border-radius: 2px; 
+}
+
+nav a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+nav .logo a {
+    text-decoration: none;
+}
+
+nav a:not(.logo):hover {
+    text-decoration: underline;
+    text-decoration-color: #ff6347; /* Color for the underline */
+    text-underline-offset: 5px;
+}
+
+.logo img {
+   height: 100px;
+   width: auto;
+}
+
+.logo {
+    max-width: 200px;
+    overflow: hidden;
+}
