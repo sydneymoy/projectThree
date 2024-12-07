@@ -84,8 +84,8 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 50px;
-    gap: 50px;
+    margin-top: 10px;
+    gap: 20px;
 }
 
 .text-section {
@@ -119,10 +119,11 @@ nav a:hover {
     background-color: orange;
     color: white;
     text-align: left;
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
-    width: fit-content;
-    margin: 20px auto;
+    margin: 10px auto;
+    position: relative;
+    top: -100px;
 }
 
 .event-location-banner h2 {
@@ -147,6 +148,15 @@ nav a:hover {
     color: black; 
     font-weight: bold;
 }
+.map-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: auto; 
+    padding: 50px; 
+    flex-wrap: wrap;
+    margin-bottom: 30px; 
+}
 
 .map img {
     width: 100%; 
@@ -154,9 +164,8 @@ nav a:hover {
     height: auto; 
     border-radius: 20px;
     box-shadow: 0 0 15px rgba(128, 128, 128, 0.8); 
-    
-    margin-top: 50px; 
-    transition: transform 0.3s ease;
+    margin-top: -80px; 
+
 }
 
 .footer {
