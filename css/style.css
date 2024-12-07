@@ -147,3 +147,19 @@ nav a:hover {
     color: black; 
     font-weight: bold;
 }
+
+.map img {
+    width: 100%; /* Adjusts the map width relative to its container */
+    max-width: 900px; /* Limits the maximum width */
+    height: auto; /* Keeps the aspect ratio intact */
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(128, 128, 128, 0.8); 
+    
+    margin-top: 50px; /* Adjust margin as needed */
+    transition: transform 0.3s ease;
+}
+
+.map img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 0 25px rgba(128, 128, 128, 1); 
+}
