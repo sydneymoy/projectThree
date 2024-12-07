@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Josefin Sans', serif;
+}
+
+.navbar { 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar a {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Jua', serif;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.navbar a::after {
+    content: '';  
+    position: absolute;
+    bottom: 1px; 
+    left: 0;
+    width: 0;
+    height: 4px; 
+    background-color: orange;
+    border-radius: 2px; 
+    transition: width 0.3s ease; 
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
+nav a:hover {
+    color: #ff6347; 
+}
