@@ -24,7 +24,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
-    width: 100%; /* Full width of the page */
+    width: 100%; 
 }
 
 .gif-container {
@@ -94,13 +94,13 @@ nav a:hover {
 }
 
 .text-section h1 {
-    font-size: 2em;
+    font-size: 24px;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
 .text-section p {
-    font-size: 1em;
+    font-size: 18px;
     line-height: 1.5;
     margin-bottom: 15px;
 }
@@ -138,7 +138,7 @@ nav a:hover {
 }
 
 .event-location-banner li {
-    font-size: 1em; 
+    font-size: 20px; 
     line-height: 1.6; 
     margin-bottom: 10px; 
     color: black; 
