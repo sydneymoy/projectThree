@@ -21,7 +21,6 @@ body {
     background-color: white;
     border-bottom: 5px solid transparent;
     box-shadow: 0 4px 10px -4px orange;
-    position: sticky;
     top: 0;
     z-index: 1000;
     width: 100%; 
@@ -138,7 +137,7 @@ nav a:hover {
 }
 
 .event-location-banner li {
-    font-size: 20px; 
+    font-size: 24px; 
     line-height: 1.6; 
     margin-bottom: 10px; 
     color: black; 

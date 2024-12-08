@@ -7,7 +7,6 @@
 body {
     font-family: 'Josefin Sans', serif;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
@@ -20,8 +19,7 @@ body {
     padding: 5px 20px;
     background-color: white;
     border-bottom: 5px solid transparent;
-    box-shadow: 0 4px 10px -4px orange;
-    position: sticky;
+    box-shadow: 0 4px 10px -4px orange;  
     top: 0;
     z-index: 1000;
     width: 100%; 
@@ -89,7 +87,6 @@ nav a:hover {
     width: 100%; 
     max-height: 400px; 
     object-fit: cover; 
-    border-radius: 10px; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
@@ -97,11 +94,8 @@ nav a:hover {
     text-align: center;
     margin: 20px auto;
     padding: 20px;
-    background-color: #f8f8f8; 
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
     max-width: 800px;
-
 }
 
 .event-header h1 {
@@ -126,8 +120,19 @@ nav a:hover {
     margin-top: 10px; 
     margin-bottom: 20px;
     padding: 10px 15px; 
-    background-color: #f9f9f9; 
     border-left: 4px solid orange; 
-    border-radius: 5px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.event-image-one {
+    flex-shrink: 0; 
+    max-width: 400px; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.event-image-one img {
+    max-width: 100%; 
+    height: auto; 
 }
