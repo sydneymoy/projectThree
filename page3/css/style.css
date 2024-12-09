@@ -77,6 +77,53 @@ nav a:hover {
     color: #ff6347; 
 }
 
+.merch-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.merch-container h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px 0 20px; 
+    color: #000000;
+}
+
+.merch-store {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.merch-item {
+    text-align: center;
+    background-color: transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.merch-item:hover {
+    transform: scale(1.05);
+    cursor: grab;
+    
+}
+
+.merch-item img {
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; 
+}
+
+.merch-item p {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+
 
 .footer {
     background-color: #333; 
