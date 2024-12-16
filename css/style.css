@@ -26,6 +26,7 @@ body {
     width: 100%; 
 }
 
+/*used a vector image from adobe stock images to create a gif in photoshop*/
 .gif-container {
     padding-left: 80px;
     transition: transform 0.5s ease;
@@ -40,6 +41,7 @@ body {
     max-width: 100%;
 }
 
+ /* navigation */
 .navbar {
     display: flex;
     align-items: center;
@@ -58,6 +60,7 @@ body {
     position: relative;
 }
 
+/*sourced and referenced from a yt video: Navbar Link Underline on Hover with CSS by ByteGrad*/
 .navbar a::after {
     content: '';  
     position: absolute;
@@ -78,6 +81,7 @@ nav a:hover {
     color: #ff6347; 
 }
 
+ /* event banner i put together in illustrator */
 .festival-banner {
     width: 100%; 
     text-align: center; 
@@ -90,7 +94,7 @@ nav a:hover {
     object-fit: cover; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
-
+/*rounded button on the tickets were referenced from the W3Schools CSS Round Buttons Tutorial*/
 .tickets a {
     display: inline-block;
     background-color: #ff6347; 
@@ -109,7 +113,7 @@ nav a:hover {
     background-color: #2d6e05;
 }
 
-
+/* recap on margins and margin-bottoms from w3schools CSS margin-bottom*/
 .event-location-banner {
     background-color: orange;
     color: white;
@@ -152,7 +156,7 @@ nav a:hover {
     flex-wrap: wrap;
     margin-bottom: 30px; 
 }
-
+/*used a shadow generator to make the map pop out. it is called css matic: the ultimate css tools for web designers.*/
 .map img {
     width: 100%; 
     max-width: 900px; 
@@ -160,7 +164,6 @@ nav a:hover {
     border-radius: 20px;
     box-shadow: 0 0 15px rgba(128, 128, 128, 0.8); 
     margin-top: -80px; 
-
 }
 
 .footer {
@@ -197,3 +200,4 @@ nav a:hover {
 .footer-content p {
     margin: 10px 0;
 }
+
