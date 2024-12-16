@@ -12,6 +12,7 @@ body {
     min-height: 100vh;
 }
 
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -19,14 +20,13 @@ body {
     padding: 5px 20px;
     background-color: white;
     border-bottom: 5px solid transparent;
-    box-shadow: 0 4px 10px -4px orange;  
+    box-shadow: 0 4px 10px -4px orange;
     top: 0;
     z-index: 1000;
     width: 100%; 
 }
-
 .gif-container {
-    padding-left: 100px;
+    padding-left: 80px;
     transition: transform 0.5s ease;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .logo img {
-    max-height: 150px;
+    max-height: 200px;
     max-width: 100%;
 }
 
@@ -77,39 +77,48 @@ nav a:hover {
     color: #ff6347; 
 }
 
-.festival-banner {
-    width: 100%; 
-    text-align: center; 
-    margin-bottom: 20px; 
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
 }
 
-.festival-banner img {
-    width: 100%; 
-    max-height: 400px; 
-    object-fit: cover; 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+.text-section {
+    max-width: 400px;
+    text-align: left;
 }
 
-.tickets a {
-    display: inline-block;
-    background-color: #ff6347; 
-    color: white;
-    padding: 15px 40px; 
-    text-decoration: none;
-    font-size: 18px;
+.text-section h1 {
+    font-size: 24px;
     font-weight: bold;
-    border-radius: 25px; 
-    text-align: center;
-    transition: transform 0.3s ease, background-color 0.3s ease; 
+    margin-bottom: 30px;
 }
 
-.tickets a:hover {
-    transform: scale(1.1); 
-    background-color: #2d6e05;
+.text-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
 }
 
+.center-image {
+    position: relative;
+    top: -200px;
+}
+.center-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+}
 
+.partners-section {
+    text-align: center;  
+}
 
+.partner-logos img:hover {
+    transform: scale(1.05); 
+}
 
 .event-container {
     display: flex;
